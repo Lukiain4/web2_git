@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/gabarieStyle.css}"/>
+    <title>Nouvel Individu</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+<header>
+    <div class="navBarre">
+        <p class="logo">
+            <img th:src="@{/images/logo.png}" alt="Logo"/><br>
+            <span class="spanBlanc">Solidariter</span>
+            <span class="spanVert">Communautaire</span>
+        </p>
+        <div class="navigation">
+            <a th:href="@{/index}"><h5>Accueil</h5></a>
+            <a th:href="@{/associations}"><h5>Associations</h5></a>
+            <a th:href="@{/projets}"><h5>Projets</h5></a>
+            <a th:href="@{/inscription}"><h5>Pas Encore Inscrit ?</h5></a>
+            <a th:href="@{'/individu/'+${session.id}}"><h5>Individu</h5></a>
+            <a href=""><h5>Organisateurs</h5></a>
+        </div>
+        <span th:if="${session}!=null" class="text-white text-center">
+            [[${session['prenom']}]]     [[${session['nom']}]]
+        </span>
+        <a class="connection"  th:href="@{/connexion}">
+            <img  th:src="@{/images/iconeConnexion.png}" alt="Icone Connexion"/>
+            <h5>Connexion</h5>
+        </a>
+        <a class="deconnection" th:href="@{/deconnexion}">
+            <h5>Deconnexion</h5>
+            <img  th:src="@{/images/iconeConnexion.png}" alt="Icone Deconnexion"/>
+        </a>
+    </div>
+</header>
+<main>
+    <div>
+        <h2 class="text-center m-3 text-white">[[${pageTitle}]]</h2>
+    </div>
+
+    <form  th:action="@{/connexion_individu/verification}" method="post" style="max-width: 700px; margin: 0 auto"
+           th:object="${individu}">
+        <input type="hidden" th:field="*{id}" />
+        <div class="border border-secondary rounded p-3 text-white">
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">E-mail:</label>
+                <div class="col-sm-8">
+
+                    <input type="email" class="form-control" th:field="*{email}"  required minlength="5" maxlength="128"  />
+
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Mot de passe:</label>
+                <div class="col-sm-8">
+                    <input  type="password" class="form-control" th:field="*{password}"
+                            required minlength="5" maxlength="20"  />
+
+                </div>
+
+            </div>
+            <div th:if="${message!=null}" class="text-danger text-center">
+                [[${message}]]
+            </div>
+            <div class="text-center">
+                <input type="submit" value="Se Connecter" class="btn btn-primary m-3" />
+                <input type="button" value="Annuler" class="btn btn-secondary" id="buttonCancel" />
+            </div>
+        </div>
+    </form> <br><br>
+    <div class="text-center m-3 fixed-bottom">
+        <p>Applications Web2  - Copyright &copy; Chez-bio.com</p>
+    </div>
+    <!--Model dialogue -->
+    <div class="modal fade text-center" id="modalDialog">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="modalTitle">Avertissement</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+
+                <div class="modal-body">
+                    <span id="modalBody"></span>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function checkEmailUnique(form) {
+            if (!validateFile(document.getElementById('fileImage'))) {
+                return false;
+            }
+
+
+            $.ajax({
+
+                type : 'POST',
+                url :  '[[@{/individu/check_email}]]',
+                data: {email:$("#email").val(),id:$("#id").val()},
+
+                success : function(data) {
+
+                    if(data==='OK'){
+                        form.submit();
+                    }else{
+                        showModalDialog("Avertissement", "Il y a déjà un individu avec le même email : " + $("#email").val())
+                    }
+                }
+            });
+
+            return false;
+        }
+
+        function showModalDialog(title, message) {
+            $("#modalTitle").text(title);
+            $("#modalBody").text(message);
+            $("#modalDialog").modal();
+
+        }
+
+        $("#buttonCancel").on("click", function () {
+            window.location = "[[@{/individu}]]";
+        });
+    </script>
+</main>
+<footer class="footer">
+    <div class="titreFoot">
+        <h2>
+            <span class="titreBlanc">Solidariter</span>
+            <span class="titreVert">Communautaire</span>
+        </h2>
+    </div><br>
+    <div class="coordonnees">
+        <div>
+            <h6>Ensemble pour un avenir solidaire</h6>
+        </div>
+        <div>
+            <img src="/images/messagefill.png"/><h6>solidariter-communautaire@gmail.com</h6>
+        </div>
+        <div>
+            <img src="/images/phonefill.png"/><h6>+1 514-376-1620</h6>
+        </div>
+        <div>
+            <img src="/images/pinfill.png"/><h6>16e Avenue, Montréal, QC</h6>
+        </div>
+    </div><br>
+
+    <div class="droitsReserves"><h5>Tous droits réservés © 2024 Solidarité Communautaire - Contribuons ensemble à un
+        monde plus solidaire.</h5></div>
+</footer>
+
+</body>
+</html>

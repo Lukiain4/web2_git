@@ -1,0 +1,298 @@
+/*
+    Created on : 21 mars 2024, 17 h 10 min 20 s
+    Author     : Serge Milongo
+*/
+
+body {
+    background-color: #1e1e1e;
+}
+
+table td th {
+    border-collapse: collapse;
+    border: 2px solid teal;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+titreBlanc {
+    color: #ffffff;
+}
+.error{
+    color:#ff0000 ;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.icon-red {color: red}
+.icon-green {color: green}
+.icon-blue {color: blue}
+
+/*---------------------------- Section navigation ----------------------------*/
+.navBarre {
+    height: 180px;
+    padding: 25px 25px 25px 25px;
+    background-color: #3a5b22;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+    background-color: rgba(38, 49, 38, 2.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarre .logo img {
+    height: 120px;
+    padding-left: 25px;
+}
+
+.navBarre .logo span{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.navBarre .logo .spanBlanc{
+    padding-left: 25px;
+    color: white;
+}
+
+.navBarre .logo .spanVert{
+    color: green;
+}
+
+
+
+.navBarre .navigation {
+    display: flex;
+    gap: 25px;
+}
+
+.navBarre .navigation a {
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+}
+
+.navBarre .connection {
+    background-color: #84cc16;
+    float: right;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.navBarre .connection img {
+    height: 50px;
+    width: 40px;
+    padding: 10px;
+    float: none;
+    margin-right: 10px;
+}
+
+.navBarre .connection h5 {
+    margin: 0;
+}
+
+.navBarre .deconnection {
+    background-color: #84cc16;
+    float: right;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+}
+
+.navBarre .deconnection img {
+    height: 50px;
+    width: 40px;
+    padding: 10px;
+    float: none;
+    margin-right: 10px;
+}
+
+.navBarre .deconnection h5{
+    margin: 0;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+
+/*--------------------------- Section Page Accueil ---------------------------*/
+.titre{
+    color: white;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 250px;
+}
+.paragraphe {
+    color: white;
+    text-align: left;
+    line-height: 1.6;
+    padding: 15px 50px 125px 100px;
+}
+
+.imageAccueil1{
+    height: 400px;
+    width: 600px;
+    border-radius: 25px;
+    float: right;
+    margin: 150px 125px 5px 50px;
+}
+
+.sousTitre{
+    color: forestgreen;
+    float: right;
+    padding-right: 225px;
+    padding-top: 55px;
+}
+
+.secondTitre{
+    color: white;
+    float: right;
+    padding-right: 150px;
+    padding-bottom: 15px;
+}
+
+.info{
+    color: white;
+    float: right;
+    padding-right: 175px;
+}
+
+.imageAccueil2{
+    height: 400px;
+    width: 600px;
+    border-radius: 25px;
+    float: left;
+    margin: 25px 50px 50px 100px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+
+/*-------------------------- Section Page Association ------------------------*/
+
+h1{
+    padding-top: 75px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.table-container {
+    padding: 75px 50px 75px 50px;
+}
+
+.celule{
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: revert;
+    padding: 5px 50px 5px 50px;
+    border-radius: 25px;
+    overflow: hidden;
+}
+th, td {
+    color: white;
+    border: 1px solid green;
+    padding: 50px 5px 50px 5px;
+    text-align: center;
+}
+
+th, td, img{
+    width: 300px;
+    height: 200px;
+}
+
+
+
+th {
+    background-color: green;
+    color: white;
+}
+
+.lienCampagne{
+    color: green;
+    text-align: right;
+    padding-right: 100px;
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*-------------------- Section Choix Inscription/Connexion -------------------*/
+.titrePrincipale{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.titreSecondaire{
+    text-align: center;
+    color: green;
+}
+
+.choixType{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-bottom: 100px;
+}
+/*----------------------------------------------------------------------------*/
+
+/*------------------------------ Section footer ------------------------------*/
+.footer{
+    background-color: #0b382b;
+    height: 220px;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.footer .titreFoot{
+    text-align: center;
+}
+.footer .titreFoot .titreBlanc {
+    color: #ffffff;
+}
+
+.footer .titreFoot .titreVert {
+    color: #84cc16;
+}
+
+.footer .coordonnees{
+    color: #ffffff;
+    gap: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .coordonnees div {
+    display: flex;
+    align-items: center;
+}
+
+
+.footer .coordonnees img{
+    height: 25px;
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer .droitsReserves h5{
+    background-color: #84cc16;
+    border-radius: 15px;
+    text-align: center;
+    color: #000000;
+    margin-right: 75px;
+    margin-left: 75px;
+}
+
+
+/*----------------------------------------------------------------------------*/

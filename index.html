@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="fr">
+<head>
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/gabarieStyle.css}"/>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+<body class="bg-dark">
+<header>
+    <div class="navBarre">
+        <p class="logo">
+            <img th:src="@{/images/logo.png}" alt="Logo"/><br>
+            <span class="spanBlanc">Solidariter</span>
+            <span class="spanVert">Communautaire</span>
+        </p>
+        <div class="navigation">
+            <a th:href="@{/index}"><h5>Accueil</h5></a>
+            <a th:href="@{/associations}"><h5>Associations</h5></a>
+            <a th:href="@{/projets}"><h5>Projets</h5></a>
+            <a th:href="@{/inscription}"><h5>Pas Encore Inscrit ?</h5></a>
+            <a th:href="@{'/individu/'+${session.id}}"><h5>Individu</h5></a>
+            <a href=""><h5>Organisateurs</h5></a>
+        </div>
+        <span th:if="${session}!=null" class="text-white text-center">
+            [[${session['prenom']}]]     [[${session['nom']}]]
+        </span>
+        <a class="connection"  th:href="@{/connexion}">
+            <img  th:src="@{/images/iconeConnexion.png}" alt="Icone Connexion"/>
+            <h5>Connexion</h5>
+        </a>
+        <a class="deconnection" th:href="@{/deconnexion}">
+            <h5>Deconnexion</h5>
+            <img  th:src="@{/images/iconeConnexion.png}" alt="Icone Deconnexion"/>
+        </a>
+    </div>
+</header>
+
+<main>
+    <div th:if="${message!=null}" class="alert alert-success text-center">
+        [[${message}]]
+    </div>
+    <img class="imageAccueil1" th:src="@{/images/imageAccueil1.png}"/>
+
+    <h1 class="titre">Solidariter Communautaire un lien<br>
+        fort pour un avenir solidaire !</h1>
+
+    <p class="paragraphe">
+        La solidarité communautaire est l'essence même de l'unité. C'est l'art de se tendre<br>
+        la main, de partager des sourires, des fardeaux et des rêves au sein d'une communauté.<br>
+        Ensemble, nous tissons une toile de soutien, faisant de chaque individu une pierre<br>
+        précieuse dans la construction d'un tissu social résilient et bienveillant.<br>
+    </p>
+
+    <br><br>
+    <img class="imageAccueil2" th:src="@{/images/imageAccueil2.png}"/>
+
+    <h3 class="sousTitre">Rejoindre la Solidariter Communautaire</h3>
+    <br><br><br><br><br>
+    <h1 class="secondTitre">De nombreux avantages joindre <br>la Communauté.</h1>
+    <br><br><br><br><br>
+    <ul class="info">
+        <li><h5>Étre membre d’un projet de la communaeauté</h5></li>
+        <li><h5>Inovation et Créativité</h5></li>
+        <li><h5>Lutte Contre l'Isolation</h5></li>
+        <li><h5>Amélioration de la Qualité de Vie</h5></li>
+        <li><h5>Créer un réseau familial et de partage</h5></li>
+    </ul>
+
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+    <br><br>
+
+</main>
+
+<footer class="footer">
+    <div class="titreFoot">
+        <h2>
+            <span class="titreBlanc">Solidariter</span>
+            <span class="titreVert">Communautaire</span>
+        </h2>
+    </div><br>
+    <div class="coordonnees">
+        <div>
+            <h6>Ensemble pour un avenir solidaire</h6>
+        </div>
+        <div>
+            <img src="/images/messagefill.png"/><h6>solidariter-communautaire@gmail.com</h6>
+        </div>
+        <div>
+            <img src="/images/phonefill.png"/><h6>+1 514-376-1620</h6>
+        </div>
+        <div>
+            <img src="/images/pinfill.png"/><h6>16e Avenue, Montréal, QC</h6>
+        </div>
+    </div><br>
+
+    <div class="droitsReserves"><h5>Tous droits réservés © 2024 Solidarité Communautaire - Contribuons ensemble à un
+        monde plus solidaire.</h5></div>
+</footer>
+
+</body>
+</html>

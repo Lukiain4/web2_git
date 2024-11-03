@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <servlet>
+        <servlet-name>OrganisateurController</servlet-name>
+        <servlet-class>com.PlateformeSolidaire.model.controller.OrganisateurController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ConnexionController</servlet-name>
+        <url-pattern>/connexionController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>DeconnexionController</servlet-name>
+        <url-pattern>/deconnexionController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+
+        <servlet-name>OrganisateurController</servlet-name>
+        <url-pattern>/organisateurController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IndividuController</servlet-name>
+        <url-pattern>/individuController</url-pattern>
+
+    </servlet-mapping>
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+    <servlet>
+        <servlet-name>IndividuController</servlet-name>
+        <servlet-class>com.PlateformeSolidaire.model.controller.IndividuController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>InscriptionController</servlet-name>
+        <servlet-class>com.PlateformeSolidaire.model.controller.InscriptionController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ConnexionController</servlet-name>
+        <servlet-class>com.PlateformeSolidaire.model.controller.ConnexionController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>DeconnexionController</servlet-name>
+        <servlet-class>com.PlateformeSolidaire.model.controller.DeconnexionController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>IndividuController</servlet-name>
+        <url-pattern>/IndividuController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>InscriptionController</servlet-name>
+        <url-pattern>/inscriptionController</url-pattern>
+    </servlet-mapping>
+</web-app>

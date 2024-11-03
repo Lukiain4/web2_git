@@ -1,0 +1,856 @@
+
+html {
+    font-size:67.5%;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ul, li {
+	list-style: none;
+}
+input {
+	border: none;
+}
+body {
+  width: 144.8rem;
+}.page-nos-projets-ewx {
+  width: 100%;
+  height: 385.4rem;
+  position: relative;
+}
+.page-nos-projets-ewx .rectangle-1-aKp {
+  width: 144rem;
+  height: 385rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  border: solid 0.1rem #000000;
+  box-sizing: border-box;
+  box-shadow: 0 0.4rem 0.4rem rgba(0, 0, 0, 0.25);
+  background-color: #1e1e1e;
+}
+.page-nos-projets-ewx .ellipse-1-eaa {
+  width: 42.1rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 0;
+  top: 16rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .barrenavigation-B4i {
+  box-sizing: border-box;
+  padding: 0rem 4.6rem 0rem 1.8rem;
+  width: 144rem;
+  height: 15rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2rem 2rem rgba(0, 0, 0, 2);
+  background-color: rgba(38, 49, 38, 2.5);
+}
+.page-nos-projets-ewx .barrenavigation-B4i .auto-group-rbla-48W {
+  margin: 0rem 6.5rem 2.7rem 0rem;
+  width: 28.9rem;
+  height: 12.8rem;
+  position: relative;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .auto-group-rbla-48W .solidaritercommunautaire-Zqx {
+  width: 28.9rem;
+  height: 3rem;
+  position: absolute;
+  left: 0;
+  top: 9.8rem;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .auto-group-rbla-48W .solidaritercommunautaire-Zqx .solidaritercommunautaire-Zqx-sub-0 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .barrenavigation-B4i .auto-group-rbla-48W .solidaritercommunautaire-Zqx .solidaritercommunautaire-Zqx-sub-1 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .barrenavigation-B4i .auto-group-rbla-48W .solidaritercommunautairelogo-1-8RC {
+  width: 15.6rem;
+  height: 11.3rem;
+  position: absolute;
+  left: 6.9rem;
+  top: 0;
+  object-fit: cover;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .group-82-3HG {
+  margin: 6.3rem 8.2rem 5.7rem 0rem;
+  height: calc(100% - 12rem);
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .group-82-3HG .accueil-9bC {
+  margin-right: 5.3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .group-82-3HG .associations-4CN {
+  margin-right: 3.8rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .group-82-3HG .projets-xoY {
+  margin-right: 4.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .group-82-3HG .a-propos-5tA {
+  margin-right: 4.4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .group-82-3HG .pas-encore-inscrit--1Wv {
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .boutonconnexion-v86 {
+  margin: 5.1rem 0rem 4.5rem 0rem;
+  box-sizing: border-box;
+  padding: 1.2rem 3.3rem 1.2rem 2.8rem;
+  height: calc(100% - 9.6rem);
+  display: flex;
+  align-items: center;
+  background-color: #84cc16;
+  border-radius: 0.5rem;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .boutonconnexion-v86 .connexion-xKg {
+  margin-right: 1.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .barrenavigation-B4i .boutonconnexion-v86 .signinsqurefill-3M8 {
+  margin-bottom: 0.0001rem;
+  width: 1.4rem;
+  height: 2.0737rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez {
+  box-sizing: border-box;
+  padding: 2.9rem 3.9rem 2.3rem 3.4rem;
+  width: 144rem;
+  height: 23.7rem;
+  position: absolute;
+  left: 0;
+  top: 361.7rem;
+  background-color: #0b382b;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn {
+  box-sizing: border-box;
+  padding: 0rem 1.372rem 4.184rem 0.9rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .solidaritercommunautaire-38A {
+  margin: 0rem 0rem 2.9rem 3.472rem;
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .solidaritercommunautaire-38A .solidaritercommunautaire-38A-sub-0 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .solidaritercommunautaire-38A .solidaritercommunautaire-38A-sub-1 {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .ensemble-pour-un-avenir-solidaire-eGN {
+  margin-right: 6.9058rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #fffdfc;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-37-xnr {
+  margin: 0rem 16.038rem 0.616rem 0rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-37-xnr .messagealtfill-JLv {
+  margin: 0rem 1.121rem 0.3rem 0rem;
+  width: 1.8347rem;
+  height: 1.4rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-37-xnr .solidariter-communautairegmailcom-1WE {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6e6e6;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-36-XUa {
+  margin: 0.6rem 14.435rem 0rem 0rem;
+  display: flex;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-36-XUa .phonefill-eZC {
+  margin-right: 2.132rem;
+  width: 1.9rem;
+  height: 1.9rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-36-XUa .item-1-514-438-514-mti {
+  margin-top: 0.008rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6e6e6;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-38-gkn {
+  margin-top: 0.616rem;
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-38-gkn .pinfill-EGW {
+  margin: 0rem 1.474rem 0.149rem 0rem;
+  width: 1.5872rem;
+  height: 1.7191rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-pnzu-iLn .auto-group-pm3t-VeN .group-38-gkn .e-avenue-montral-qc-wgi {
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #e6e6e6;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .footer-gez .group-39-mRY .auto-group-rpnr-rog {
+  width: 100%;
+  height: 5.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #2a2420;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #84cc16;
+  border-radius: 0.8rem;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .ellipse-15-KxA {
+  width: 42.1rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 0;
+  top: 255.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .ellipse-16-qvW {
+  width: 42.1rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 102.7rem;
+  top: 279.2rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .frame-63-ZLi {
+  width: 126rem;
+  height: 327.4rem;
+  position: absolute;
+  left: 9rem;
+  top: 30.9rem;
+  overflow: hidden;
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 {
+  box-sizing: border-box;
+  padding: 1.7rem 6.3rem 6.3rem 4.3rem;
+  width: 124rem;
+  height: 42.6rem;
+  position: absolute;
+  left: 0.4rem;
+  top: 283rem;
+  overflow: hidden;
+  border: solid 0.2rem #84cc16;
+  background-color: rgba(0, 0, 0, 0.200000003);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-153-bg-1CJ.png');
+  border-radius: 1rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .comment-vous-pouvez-contribuer-M1g {
+  margin-bottom: 1.2rem;
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #d8d8d8;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS {
+  width: 100%;
+  height: 28.6rem;
+  position: relative;
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS .la-solidarit-commence-avec-vous-dcouvrez-comment-vous-pouvez-participer-et-contribuer-nos-initiatives-que-ce-soit-par-le-bnvolat-les-dons-ou-simplement-en-partageant-notre-vision-chaque-geste-compte-rejoignez-nous-dans-notre-engagement-envers-une-communaut-plus-forte-et-plus-unie-ensemble-faisons-la-diffrence-merci-de-soutenir-solidaritercommunautaire-RGS {
+  width: 112.6rem;
+  height: 26.4rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 2.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #d8d8d8;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS .la-solidarit-commence-avec-vous-dcouvrez-comment-vous-pouvez-participer-et-contribuer-nos-initiatives-que-ce-soit-par-le-bnvolat-les-dons-ou-simplement-en-partageant-notre-vision-chaque-geste-compte-rejoignez-nous-dans-notre-engagement-envers-une-communaut-plus-forte-et-plus-unie-ensemble-faisons-la-diffrence-merci-de-soutenir-solidaritercommunautaire-RGS .la-solidarit-commence-avec-vous-dcouvrez-comment-vous-pouvez-participer-et-contribuer-nos-initiatives-que-ce-soit-par-le-bnvolat-les-dons-ou-simplement-en-partageant-notre-vision-chaque-geste-compte-rejoignez-nous-dans-notre-engagement-envers-une-communaut-plus-forte-et-plus-unie-ensemble-faisons-la-diffrence-merci-de-soutenir-solidaritercommunautaire-RGS-sub-0 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #d8d8d8;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS .la-solidarit-commence-avec-vous-dcouvrez-comment-vous-pouvez-participer-et-contribuer-nos-initiatives-que-ce-soit-par-le-bnvolat-les-dons-ou-simplement-en-partageant-notre-vision-chaque-geste-compte-rejoignez-nous-dans-notre-engagement-envers-une-communaut-plus-forte-et-plus-unie-ensemble-faisons-la-diffrence-merci-de-soutenir-solidaritercommunautaire-RGS .la-solidarit-commence-avec-vous-dcouvrez-comment-vous-pouvez-participer-et-contribuer-nos-initiatives-que-ce-soit-par-le-bnvolat-les-dons-ou-simplement-en-partageant-notre-vision-chaque-geste-compte-rejoignez-nous-dans-notre-engagement-envers-une-communaut-plus-forte-et-plus-unie-ensemble-faisons-la-diffrence-merci-de-soutenir-solidaritercommunautaire-RGS-sub-1 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS .la-solidarit-commence-avec-vous-dcouvrez-comment-vous-pouvez-participer-et-contribuer-nos-initiatives-que-ce-soit-par-le-bnvolat-les-dons-ou-simplement-en-partageant-notre-vision-chaque-geste-compte-rejoignez-nous-dans-notre-engagement-envers-une-communaut-plus-forte-et-plus-unie-ensemble-faisons-la-diffrence-merci-de-soutenir-solidaritercommunautaire-RGS .la-solidarit-commence-avec-vous-dcouvrez-comment-vous-pouvez-participer-et-contribuer-nos-initiatives-que-ce-soit-par-le-bnvolat-les-dons-ou-simplement-en-partageant-notre-vision-chaque-geste-compte-rejoignez-nous-dans-notre-engagement-envers-une-communaut-plus-forte-et-plus-unie-ensemble-faisons-la-diffrence-merci-de-soutenir-solidaritercommunautaire-RGS-sub-2 {
+  font-size: 2.2rem;
+  font-weight: 500;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #d8d8d8;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS .frame-5-Xu8 {
+  box-sizing: border-box;
+  padding: 1.65rem 4.3rem 1.65rem 3.4rem;
+  width: 49.7rem;
+  height: 6.3rem;
+  position: absolute;
+  left: 63.7rem;
+  top: 22.3rem;
+  display: flex;
+  align-items: center;
+  background-color: #84cc16;
+  border-radius: 0.5rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS .frame-5-Xu8 .rejoindre-la-communaut-maintenant-PwL {
+  margin-right: 1.9rem;
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #000000;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .frame-63-ZLi .votre-contribustion-GW2 .auto-group-qtcn-GeS .frame-5-Xu8 .expandright-rpv {
+  width: 0.6rem;
+  height: 1.2rem;
+  object-fit: contain;
+  vertical-align: top;
+  flex-shrink: 0;
+}
+.page-nos-projets-ewx .frame-63-ZLi .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea {
+  width: 136.5rem;
+  height: 6.6rem;
+  position: absolute;
+  left: -5.25rem;
+  top: 272rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea-sub-0 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea-sub-1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea-sub-2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea-sub-3 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea .rencontrez-lquipe-dvoue-derrire-solidaritercommunautaire-chacun-de-nos-membres-partage-une-passion-commune-pour-la-solidarit-communautaire-et-apporte-une-expertise-unique-qui-contribue-la-ralisation-de-notre-mission-Wea-sub-4 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .notre-quipe-DDY {
+  width: 20.1rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 52.85rem;
+  top: 264.5rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.page-nos-projets-ewx .frame-63-ZLi .rectangle-35-WCe {
+  width: 64.5rem;
+  height: 33.5rem;
+  position: absolute;
+  left: 31rem;
+  top: 224.2rem;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-35-bg.png');
+  border-radius: 2rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .ralisations-ce-jour-nous-avons-aid-des-centaines-de-personnes-acqurir-des-comptences-professionnelles-accder-des-opportunits-demploi-et-reconstruire-leur-vie-ensemble-nous-travaillons-pour-un-avenir-o-chaque-individu-a-les-moyens-de-crer-sa-propre-trajectoire-bjt {
+  width: 116.2rem;
+  height: 14.1rem;
+  position: absolute;
+  left: 5.05rem;
+  top: 206.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .ralisations-ce-jour-nous-avons-aid-des-centaines-de-personnes-acqurir-des-comptences-professionnelles-accder-des-opportunits-demploi-et-reconstruire-leur-vie-ensemble-nous-travaillons-pour-un-avenir-o-chaque-individu-a-les-moyens-de-crer-sa-propre-trajectoire-bjt .ralisations-ce-jour-nous-avons-aid-des-centaines-de-personnes-acqurir-des-comptences-professionnelles-accder-des-opportunits-demploi-et-reconstruire-leur-vie-ensemble-nous-travaillons-pour-un-avenir-o-chaque-individu-a-les-moyens-de-crer-sa-propre-trajectoire-bjt-sub-0 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .ralisations-ce-jour-nous-avons-aid-des-centaines-de-personnes-acqurir-des-comptences-professionnelles-accder-des-opportunits-demploi-et-reconstruire-leur-vie-ensemble-nous-travaillons-pour-un-avenir-o-chaque-individu-a-les-moyens-de-crer-sa-propre-trajectoire-bjt .ralisations-ce-jour-nous-avons-aid-des-centaines-de-personnes-acqurir-des-comptences-professionnelles-accder-des-opportunits-demploi-et-reconstruire-leur-vie-ensemble-nous-travaillons-pour-un-avenir-o-chaque-individu-a-les-moyens-de-crer-sa-propre-trajectoire-bjt-sub-1 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-uoav-Kxi {
+  width: 102.6rem;
+  height: 36.8rem;
+  position: absolute;
+  left: 31rem;
+  top: 169.7rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-uoav-Kxi .rectangle-36-3dp {
+  width: 64.5rem;
+  height: 33.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-36-bg.png');
+  border-radius: 2rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-uoav-Kxi .ellipse-18-xEz {
+  width: 42.1rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 60.5rem;
+  top: 0.1rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .frame-63-ZLi .objectif-unis-pour-lavenir-se-concentre-sur-lautonomisation-des-communauts-en-situation-de-vulnrabilit-nous-mettons-en-place-des-programmes-dinsertion-sociale-des-formations-professionnelles-et-des-initiatives-visant-renforcer-la-rsilience-des-individus-et-des-familles-UDL {
+  width: 112.8rem;
+  height: 14.1rem;
+  position: absolute;
+  left: 6.75rem;
+  top: 152.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .objectif-unis-pour-lavenir-se-concentre-sur-lautonomisation-des-communauts-en-situation-de-vulnrabilit-nous-mettons-en-place-des-programmes-dinsertion-sociale-des-formations-professionnelles-et-des-initiatives-visant-renforcer-la-rsilience-des-individus-et-des-familles-UDL .objectif-unis-pour-lavenir-se-concentre-sur-lautonomisation-des-communauts-en-situation-de-vulnrabilit-nous-mettons-en-place-des-programmes-dinsertion-sociale-des-formations-professionnelles-et-des-initiatives-visant-renforcer-la-rsilience-des-individus-et-des-familles-UDL-sub-0 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .objectif-unis-pour-lavenir-se-concentre-sur-lautonomisation-des-communauts-en-situation-de-vulnrabilit-nous-mettons-en-place-des-programmes-dinsertion-sociale-des-formations-professionnelles-et-des-initiatives-visant-renforcer-la-rsilience-des-individus-et-des-familles-UDL .objectif-unis-pour-lavenir-se-concentre-sur-lautonomisation-des-communauts-en-situation-de-vulnrabilit-nous-mettons-en-place-des-programmes-dinsertion-sociale-des-formations-professionnelles-et-des-initiatives-visant-renforcer-la-rsilience-des-individus-et-des-familles-UDL-sub-1 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .projet-social-unis-pour-lavenir-UPg {
+  width: 47.9rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 39.05rem;
+  top: 144.7rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-affc-YuL {
+  width: 101.4rem;
+  height: 36.7rem;
+  position: absolute;
+  left: -5.9rem;
+  top: 103.1rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-affc-YuL .rectangle-34-Fok {
+  width: 64.5rem;
+  height: 33.5rem;
+  position: absolute;
+  left: 36.9rem;
+  top: 2.9rem;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-34-bg.png');
+  border-radius: 2rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-affc-YuL .ellipse-6-v9C {
+  width: 42.1rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .frame-63-ZLi .ralisations-grce-ce-projet-nous-avons-tabli-des-bibliothques-communautaires-organis-des-ateliers-ducatifs-et-fourni-des-ressources-scolaires-des-milliers-denfants-chaque-livre-partag-chaque-sourire-illumin-par-la-connaissance-est-une-victoire-pour-nous-SNS {
+  width: 115.7rem;
+  height: 14.1rem;
+  position: absolute;
+  left: 5.3rem;
+  top: 88.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .ralisations-grce-ce-projet-nous-avons-tabli-des-bibliothques-communautaires-organis-des-ateliers-ducatifs-et-fourni-des-ressources-scolaires-des-milliers-denfants-chaque-livre-partag-chaque-sourire-illumin-par-la-connaissance-est-une-victoire-pour-nous-SNS .ralisations-grce-ce-projet-nous-avons-tabli-des-bibliothques-communautaires-organis-des-ateliers-ducatifs-et-fourni-des-ressources-scolaires-des-milliers-denfants-chaque-livre-partag-chaque-sourire-illumin-par-la-connaissance-est-une-victoire-pour-nous-SNS-sub-0 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .ralisations-grce-ce-projet-nous-avons-tabli-des-bibliothques-communautaires-organis-des-ateliers-ducatifs-et-fourni-des-ressources-scolaires-des-milliers-denfants-chaque-livre-partag-chaque-sourire-illumin-par-la-connaissance-est-une-victoire-pour-nous-SNS .ralisations-grce-ce-projet-nous-avons-tabli-des-bibliothques-communautaires-organis-des-ateliers-ducatifs-et-fourni-des-ressources-scolaires-des-milliers-denfants-chaque-livre-partag-chaque-sourire-illumin-par-la-connaissance-est-une-victoire-pour-nous-SNS-sub-1 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-uvcv-zRt {
+  width: 102.6rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 31rem;
+  top: 49.9rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-uvcv-zRt .rectangle-33-ryt {
+  width: 64.5rem;
+  height: 33.5rem;
+  position: absolute;
+  left: 0;
+  top: 1.6rem;
+  background-color: #d9d9d9;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url('../assets/rectangle-33-bg.png');
+  border-radius: 2rem;
+}
+.page-nos-projets-ewx .frame-63-ZLi .auto-group-uvcv-zRt .ellipse-19-yYi {
+  width: 42.1rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 60.5rem;
+  top: 0;
+  object-fit: contain;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .frame-63-ZLi .objectif-le-projet-lumire-du-savoir-vise-renforcer-laccs-lducation-dans-les-communauts-dfavorises-nous-croyons-que-lducation-est-la-cl-du-changement-et-travaillons-crer-des-opportunits-ducatives-pour-tous-hUi {
+  width: 116.1rem;
+  height: 14.1rem;
+  position: absolute;
+  left: 5.1rem;
+  top: 34rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .objectif-le-projet-lumire-du-savoir-vise-renforcer-laccs-lducation-dans-les-communauts-dfavorises-nous-croyons-que-lducation-est-la-cl-du-changement-et-travaillons-crer-des-opportunits-ducatives-pour-tous-hUi .objectif-le-projet-lumire-du-savoir-vise-renforcer-laccs-lducation-dans-les-communauts-dfavorises-nous-croyons-que-lducation-est-la-cl-du-changement-et-travaillons-crer-des-opportunits-ducatives-pour-tous-hUi-sub-0 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .objectif-le-projet-lumire-du-savoir-vise-renforcer-laccs-lducation-dans-les-communauts-dfavorises-nous-croyons-que-lducation-est-la-cl-du-changement-et-travaillons-crer-des-opportunits-ducatives-pour-tous-hUi .objectif-le-projet-lumire-du-savoir-vise-renforcer-laccs-lducation-dans-les-communauts-dfavorises-nous-croyons-que-lducation-est-la-cl-du-changement-et-travaillons-crer-des-opportunits-ducatives-pour-tous-hUi-sub-1 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .projet-ducatif-lumire-du-savoir-UnJ {
+  width: 54.3rem;
+  height: 4.8rem;
+  position: absolute;
+  left: 35.85rem;
+  top: 26.5rem;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+}
+.page-nos-projets-ewx .frame-63-ZLi .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A {
+  width: 112.5rem;
+  height: 9.9rem;
+  position: absolute;
+  left: 6.8rem;
+  top: 13.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.2rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A-sub-0 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A-sub-1 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A-sub-2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .frame-63-ZLi .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A .bienvenue-sur-la-page-ddie-nos-projets-passionnants-chez-solidaritercommunautaire-chacun-de-nos-projets-est-une-tape-vers-la-ralisation-de-notre-vision-construire-des-communauts-fortes-et-solidaires-dcouvrez-nos-initiatives-actuelles-et-passes-qui-ont-eu-un-impact-concret-86A-sub-3 {
+}
+.page-nos-projets-ewx .frame-63-ZLi .engageons-nous-ensemble-pour-le-changement-7ki {
+  width: 55.7rem;
+  height: 9.6rem;
+  position: absolute;
+  left: 35.15rem;
+  top: 0;
+  text-align: center;
+  font-size: 3.2rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .ellipse-11-D34 {
+  width: 42.1rem;
+  height: 36.7rem;
+  position: absolute;
+  left: 13.7rem;
+  top: 340.9rem;
+  object-fit: contain;
+  vertical-align: top;
+}
+.page-nos-projets-ewx .nos-projets-YLE {
+  width: 26.3rem;
+  height: 7.2rem;
+  position: absolute;
+  left: 58.85rem;
+  top: 11.1rem;
+  text-align: center;
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+  white-space: nowrap;
+  display: flex;
+  align-items: baseline;
+}
+.page-nos-projets-ewx .nos-projets-YLE .nos-projets-YLE-sub-0 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-family: Poppins, 'Source Sans Pro';
+}
+.page-nos-projets-ewx .nos-projets-YLE .nos-projets-YLE-sub-1 {
+  font-size: 4.8rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-transform: capitalize;
+  color: #84cc16;
+  font-family: Poppins, 'Source Sans Pro';
+}

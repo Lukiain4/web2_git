@@ -1,0 +1,118 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 21 mars 2024, 17 h 10 min 20 s
+    Author     : guoub
+*/
+
+
+body {
+    background-color: #1e1e1e;
+}
+
+table,td, th {
+    border-collapse: collapse;
+    border: 2px solid teal;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+titreBlanc {
+    color: #ffffff;
+}
+
+/*---------------------------- Section navigation ----------------------------*/
+.navBarre {
+    height: 180px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #3a5b22;
+    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.2);
+    background-color: rgba(38, 49, 38, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBarre .logo img {
+    height: 120px;
+
+}
+
+.navBarre .logo span {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.navBarre .navigation {
+    display: flex;
+    gap: 20px;
+}
+
+.navBarre .navigation a {
+    text-transform: capitalize;
+    color: #ffffff;
+    text-align: center;
+}
+
+.navBarre .connection {
+    background-color: #84cc16;
+    float: right;
+    text-align: center;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.navBarre .connection img {
+    height: 20px;
+    padding: 10px;
+}
+/*----------------------------------------------------------------------------*/
+
+
+
+/*------------------------------ Section footer ------------------------------*/
+.footer{
+    background-color: #0b382b;
+    height: 220px;
+    justify-content: space-between;
+}
+
+.footer .titre{
+    float: top;
+    text-align: center;
+}
+.footer .titre .titreBlanc {
+    color: #ffffff;
+}
+
+.footer .titre .titreVert {
+    color: #84cc16;
+}
+
+.footer .coordonnees{
+    color: #ffffff;
+    display: flex;
+    gap: 100px;
+
+}
+
+.footer .coordonnees img{
+    height: 10px;
+    margin: 0 auto;
+}
+
+
+.footer .droitsReserves h2{
+    background-color: #84cc16;
+    border-radius: 15px;
+    float: bottom;
+    text-align: center;
+    color: #000000;
+
+}
+/*----------------------------------------------------------------------------*/

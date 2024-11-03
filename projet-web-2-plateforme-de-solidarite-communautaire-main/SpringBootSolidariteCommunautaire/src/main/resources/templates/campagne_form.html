@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org" lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" th:href="@{/css/gabarieStyle.css}"/>
+    <title>Nouvelle Compagne</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+<header>
+    <div class="navBarre">
+        <p class="logo">
+            <img th:src="@{/images/logo.png}" alt="Logo"/><br>
+            <span class="spanBlanc">Solidariter</span>
+            <span class="spanVert">Communautaire</span>
+        </p>
+        <div class="navigation">
+            <a th:href="@{/index}"><h5>Accueil</h5></a>
+            <a href=""><h5>Associations</h5></a>
+            <a th:href="@{/projets}"><h5>Projets</h5></a>
+            <a href=""><h5>A propos</h5></a>
+            <a th:href="@{/inscription}"><h5>Pas Encore Inscrit ?</h5></a>
+            <a th:href="@{'/individu/'+${session.id}}"><h5>Individu</h5></a>
+            <a href=""><h5>Organisateurs</h5></a>
+        </div>
+        <span th:if="${session}!=null" class="text-white text-center">
+            [[${session['prenom']}]]     [[${session['nom']}]]
+        </span>
+        <a class="connection" th:href="@{/connexion}">
+            <img th:src="@{/images/iconeConnexion.png}" alt="Icone Connexion"/>
+            <h5>Connexion</h5>
+        </a>
+        <a class="deconnection" th:href="@{/deconnexion}">
+            <h5>Deconnexion</h5>
+            <img th:src="@{/images/signinsqurefill-q9p.png}" alt="Icone Deconnexion"/>
+        </a>
+    </div>
+</header>
+<main>
+    <div class="container-fluid text-white">
+        <div>
+            <h2 class="text-center m-3">Nouvelle Campagne</h2>
+        </div>
+        <form th:action="@{/campagne/save}" method="post" style="max-width: 700px; margin: 0 auto"
+              th:object="${campagne}" enctype="multipart/form-data">
+            <input type="hidden" th:field="*{id}"/>
+            <div class="border border-secondary rounded p-3">
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Nom:</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" required minlength="2" maxlength="45"
+                               th:field="*{nom}"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Description:</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" required minlength="2" maxlength="254"
+                               th:field="*{description}"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-sm-4 col-form-label">Fond:</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" required minlength="2" maxlength="254"
+                               th:field="*{fond}"/>
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <div class="col-sm-8">
+                        <input th:type="hidden" id="individu" class="form-control" name="individu"
+                               th:value="${session.id}" readonly>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <input type="submit" value="Enregistrer" class="btn btn-primary m-3"/>
+                    <input type="button" value="Annuler" class="btn btn-secondary" id="buttonCancel"/>
+                </div>
+            </div>
+        </form>
+        <br><br>
+        <!--Model dialogue -->
+        <div class="modal fade text-center" id="modalDialog">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title" id="modalTitle">Avertissement</h4>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <span id="modalBody"></span>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            function showModalDialog(title, message) {
+                $("#modalTitle").text(title);
+                $("#modalBody").text(message);
+                $("#modalDialog").modal();
+
+            }
+
+            $("#buttonCancel").on("click", function () {
+
+                window.location = "[[@{/compagnes}]]";
+            });
+
+        </script>
+    </div>
+</main>
+<footer class="footer">
+    <div class="titreFoot">
+        <h2>
+            <span class="titreBlanc">Solidariter</span>
+            <span class="titreVert">Communautaire</span>
+        </h2>
+    </div>
+    <br>
+    <div class="coordonnees">
+        <div>
+            <h6>Ensemble pour un avenir solidaire</h6>
+        </div>
+        <div>
+            <img src="/images/messagefill.png"/><h6>solidariter-communautaire@gmail.com</h6>
+        </div>
+        <div>
+            <img src="/images/phonefill.png"/><h6>+1 514-376-1620</h6>
+        </div>
+        <div>
+            <img src="/images/pinfill.png"/><h6>16e Avenue, Montréal, QC</h6>
+        </div>
+    </div>
+    <br>
+
+    <div class="droitsReserves"><h5>Tous droits réservés © 2024 Solidarité Communautaire - Contribuons ensemble à un
+        monde plus solidaire.</h5></div>
+</footer>
+
+</body>
+</html>
